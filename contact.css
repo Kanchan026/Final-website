@@ -1,0 +1,31 @@
+.row{
+  margin-top: 100px;
+  margin-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 7vh;
+}
+
+
+.back{
+  margin-top: 80px;
+  background-color: rgb(212, 195, 163);
+ 
+}
+.col-12{
+  padding-top: 7vh;
+  
+}
+form-check-label{
+  padding-top: 8vh;
+}
+
+body{
+background-color: rgb(117, 113, 109);
+background-image: url(images/pic3.JPG);
+}
+
+.agnes{
+  vertical-align: middle;
+  padding-right: 100px;
+  padding-left: 0px;
+}

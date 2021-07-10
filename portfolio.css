@@ -1,0 +1,159 @@
+/**
+***********************************************************
+***********************************************************
+***********************************************************
+***********************************************************
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.navbar-brand{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-left: 60px;
+	}
+	
+	.nav-link{
+	   font-size: 18px;
+	}
+	.nav-item{
+	  padding-right: 40px;
+	  margin-left: 30px;
+	  font-size: 40px;
+	}
+	.navbar-nav{
+	  padding-right: 70px;
+	}
+.section {
+	padding: 7rem 0;
+}
+
+.filters a {
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+
+.filters a:hover,
+.filters a:focus,
+.filters a:active {
+	text-decoration: none;
+}
+
+.filters a:hover:before {
+	content: "";
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	bottom: 0;
+	height: 1px;
+	background-color: #000;
+}
+
+.filters a.active {
+	color: #000;
+}
+
+.filters a.active:before {
+	content: "";
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	bottom: 0;
+	height: 1px;
+	background-color: #000;
+}
+
+.item {
+	border: none;
+	margin-bottom: 30px;
+}
+
+.item .item-wrap {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.item .item-wrap:after {
+	z-index: 2;
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.4);
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.3s all ease-in-out;
+}
+
+.item .item-wrap img {
+	transition: 0.3s transform ease;
+	transform: scale(1);
+}
+
+.item .item-wrap > .work-info {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	z-index: 3;
+	transform: translateY(-50%);
+	color: #fff;
+	opacity: 0;
+	visibility: hidden;
+	margin-top: 20px;
+	transition: 0.3s all ease;
+}
+
+.item .item-wrap > .work-info h3 {
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.item .item-wrap > .work-info span {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	
+}
+.work-info span {
+	color: white;
+}
+
+
+.item .item-wrap:hover {
+	text-decoration: none;
+}
+
+.item .item-wrap:hover img {
+	transform: scale(1.05);
+}
+
+.item .item-wrap:hover:after {
+	opacity: 1;
+	visibility: visible;
+}
+
+.item .item-wrap:hover .work-info {
+	margin-top: 0px;
+	opacity: 1;
+	visibility: visible;
+}
+
+footer {
+	z-index: +50;
+	position: relative;
+	background: linear-gradient(rgba(2, 2, 2, 0.609), rgba(0, 0, 0, 0.602)),
+		url("images/sunset.jpg") fixed center center;
+	background-size: cover;
+  width: 100%;
+  height: 40vh;
+}

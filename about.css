@@ -1,0 +1,216 @@
+body{
+  background-color:whitesmoke;
+}
+
+#sign{
+font-size: 30px;
+  margin-left: 50%;
+  margin-top: 4vh;
+  
+}
+
+
+.quote p{
+ 
+    text-align: center;
+    font-size: 20px;
+    margin:auto;
+    font-family: 'Kaushan Script', cursive;
+   
+}
+
+
+
+
+span#color{
+  color: rgb(226, 95, 43);
+  font-size: 70px;
+}
+.lead{
+  font-size: 70px;
+}
+
+ .photo1{
+   box-shadow: 12px 25px 25px 0 rgba(5, 5, 5, 0.2);
+ }
+
+ .photo2{
+  box-shadow: 12px 25px 25px 0 rgba(5, 5, 5, 0.2);
+}
+
+
+
+#p_grid img{
+  padding-top: 10px;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#p_grid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+ .row#f_row{
+  padding-left: 10vw;
+  padding-top: 7vh;
+ 
+} 
+
+.col-lg-5#text1 {
+  padding-right: 240px;
+  vertical-align: middle;
+
+}
+
+.photogrid img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px 300px 300px;
+  width: 200px;
+  height: auto;
+  padding-bottom: 10px;
+  }
+  .img{
+    height: auto;
+    width: 25%;
+  }
+
+  .empty{
+    height: 15vh;
+  }
+
+  #space{
+    margin-bottom: 6px;
+  }
+img.me{
+  padding-top: 0px;
+  
+}
+
+.col-lg-6.text2{
+  margin-left: 24%;
+  margin-top: 10%;
+ 
+  background-color: rgb(192, 187, 177);
+  height: 40vh;
+  width: 40vw;
+  font-size: 30px;
+ 
+  
+}
+
+
+
+
+video {
+  width: 70%;
+  height: auto;
+ margin-left: 15%;
+}
+
+.grade p{
+  font-size: 28px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  margin-bottom: 7%;
+background-color: rgba(223, 211, 189, 0.644);
+
+}
+
+
+
+.card-body{
+  padding-left: 40px;
+ 
+}
+
+
+.card{
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 90px;
+}
+
+
+.card-group{
+  margin-bottom: 30px;
+}
+
+
+
+footer {
+	z-index: +50;
+	position: relative;
+	background: linear-gradient(rgba(2, 2, 2, 0.609), rgba(0, 0, 0, 0.602)),
+		url("images/sunset.jpg") fixed center center;
+	background-size: cover;
+  width: 100%;
+  height: 40vh;
+}
+
+
+
+
+
+
+@media (max-width:1000px){
+
+.text2{
+  display: none;
+}
+
+.about_me{
+  margin-top: -120px;
+  text-align: center;
+ 
+}
+
+.info_heading{
+  text-align: center;
+  margin-left: 50px;
+  margin-right: -px;
+}
+.me{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+}
+.quote p{
+ 
+  text-align: center;
+  font-size: 20px;
+  margin:auto;
+  font-family: 'Kaushan Script', cursive;
+  margin-bottom: 20px;
+ 
+}
+
+
+}
+
+@media (max-width:1700px){
+ 
+.col-lg-6.text2{
+  margin-left: 24%;
+  margin-top: 10%;
+ 
+  background-color: rgb(192, 187, 177);
+  height: 40vh;
+  width: 40vw;
+  font-size: 20px;
+ 
+  
+}
+
+.info_heading{
+  text-align: center;
+  margin-left: 50px;
+  margin-right: -100px;
+}
+
+}
+
+
